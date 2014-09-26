@@ -14,7 +14,8 @@
 							the_title(
 								$before = '<h1>',
 								$after = '</h1>', 
-								$echo = true);
+								$echo = true
+								);
 							?>
 						</a>
 					</li>

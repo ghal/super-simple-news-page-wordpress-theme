@@ -26,11 +26,6 @@ Giannis Halvatzakis
         <div class="container">
             <div class="left-container">
                 <div id="logo">Da NEWS</div>
-
-                <a href="#" class="category selected">Κυριότερες ειδήσεις</a>
-                <a href="#" class="category">Κόσμος</a>
-                <a href="#" class="category">Ελλάδα</a>
-                <a href="#" class="category">Πολιτική</a>
                 <?php
                        $args = array(
                           'menu' => 'primary',
