@@ -22,6 +22,7 @@ Giannis Halvatzakis
 
     </head>
     <body>
+
         <div class="container">
             <div class="left-container">
                 <div id="logo">Da NEWS</div>
@@ -30,5 +31,14 @@ Giannis Halvatzakis
                 <a href="#" class="category">Κόσμος</a>
                 <a href="#" class="category">Ελλάδα</a>
                 <a href="#" class="category">Πολιτική</a>
+                <?php
+                       $args = array(
+                          'menu' => 'primary',
+                          'echo' => false
+                        );
+                    echo strip_tags(wp_nav_menu( $args ),'<a>'); 
+                ?>
+               
+
             </div>
             <div class="right-container">

@@ -69,6 +69,24 @@ body{
     background-color: #F61C36;
     //background-color: rgba(0,0,0,0.5);
     float: left; 
+}
+.left-container a{
+    display: block;
+    width: 95%;
+    text-decoration: none;
+    background-color: #ffffff;
+    margin: 2.5%;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    border-top: rgba(0,0,0,0.5);
+    color:black;
+}
+.left-container a:hover{
+    background-color: #ff3c1f;
+    color:white;
     
 }
 #logo{
@@ -85,26 +103,8 @@ body{
     text-align: center;
     
 }*/
-.category{
-    display: block;
-    width: 95%;
-    text-decoration: none;
-    background-color: #ffffff;
-    margin: 2.5%;
-    font-size: 2em;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
-    border-radius: 5px;
-    border-top: rgba(0,0,0,0.5);
-    color:black;
 
 
-
-}
-.category:hover{
-    background-color: #ff3c1f;
-    color:white;
 }
 .selected{
     background-color: #fef5f3;

@@ -66,6 +66,8 @@ function super_simple_news_page_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+	add_theme_support( 'post-thumbnails' ); 
+	//set_post_thumbnail_size( 0, 0, true ); // default Post Thumbnail dimensions (cropped)
 }
 endif; // super_simple_news_page_setup
 add_action( 'after_setup_theme', 'super_simple_news_page_setup' );
