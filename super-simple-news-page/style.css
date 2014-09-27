@@ -64,7 +64,7 @@ body{
 }
 .left-container{
     position: fixed;
-    width:15%;
+    width:285px;
     height:100%;
     background-color: #F61C36;
     //background-color: rgba(0,0,0,0.5);
@@ -90,7 +90,7 @@ body{
     
 }
 #logo{
-    font-size: 3vmax;
+    font-size: 3em;
     text-align: center;
     font-weight: 300;
     border-bottom: 1px solid black;
@@ -183,11 +183,8 @@ body{
     padding:5px;
 
 }
-@media (max-width:1023px){
-    .flex-item {
-        width: 95%;
-    }
-}
+
+
 .article{
     
     margin-left: 25%;
@@ -197,14 +194,7 @@ body{
     background-color: white
 }
 /*ARTICLE PAGE*/
-.article #article-img{
-width: 100%;
-background-image: url("http://www.insomnia.gr/uploads/c630c75b5d16f0904a8259b404b69f85.jpg");
-background-position: top center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 400px;
-}
+
 .article h1{
     font-size: 2.5em;
     //text-align: center;
@@ -213,9 +203,9 @@ height: 400px;
     //margin:0;
     margin: 2.5%;
 }
-.article p{
-    font-size: 1.5em;
+#article-content{
+    font-size: 1.25em;
     padding:5px;
     margin: 2.5%;
-
+    padding-bottom: 10px;
 }
