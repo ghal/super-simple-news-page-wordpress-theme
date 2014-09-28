@@ -10,11 +10,12 @@
 					$image_url = wp_get_attachment_image_src($image_id,'large', true);
 					echo $image_url[0];
 				 ?>");
-				background-position: top center;
+				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
 				height: 400px;
 				}
+
 			</style>
             <div class="article">
             	<div class="entry-meta">
