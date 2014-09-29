@@ -190,7 +190,10 @@ body{
 .article{
         
         margin:0 20%;
-        background-color: white;        
+        background-color: white;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+         box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);        
 }
 
 .article h1{
@@ -207,12 +210,27 @@ body{
     margin: 2.5%;
     padding-bottom: 10px;
 }
+.byline{
+    display: none;
+}
 
 h1.cat-title{
     font-size: 2em;
     text-align: center;
 }
-
+.entry-meta{
+    margin-left: calc(2.5% + 10px);
+    color: gray;
+}
+.post-navigation{
+    text-align: center;
+}
+.comments-area{
+    text-align: center;
+}
+.form-allowed-tags{
+    display: none;
+}
 @media (max-width:1023px){
     .right-container{
         margin-left: 0 !important;

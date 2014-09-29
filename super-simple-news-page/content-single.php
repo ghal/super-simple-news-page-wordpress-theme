@@ -18,11 +18,12 @@
 
 			</style>
             <div class="article">
-            	<div class="entry-meta">
-					<?php super_simple_news_page_posted_on(); ?>
-				</div><!-- .entry-meta -->
+
                 <div id="article-img"></div>
                 <?php the_title( '<h1>', '</h1>' ); ?>
+                <div class="entry-meta">
+					<?php super_simple_news_page_posted_on(); ?>
+				</div><!-- .entry-meta -->
                 <div id="article-content">
 					<?php the_content(); ?>
 				</div>
